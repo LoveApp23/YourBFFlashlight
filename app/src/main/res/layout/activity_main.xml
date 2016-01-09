@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/backgroundapp">
+
+
+    <ImageButton
+        android:id="@+id/btnSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="133dp"
+        android:src="@drawable/poweroffline"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/FlashLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/flashlightoff"
+        android:contentDescription="@null"
+        android:layout_alignBottom="@+id/FlashBlinkLogo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/FlashBlinkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blinkoffline"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:layout_alignTop="@+id/btnSwitch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/btnSwitch"
+        android:layout_toRightOf="@+id/btnSwitch"
+        android:layout_toEndOf="@+id/btnSwitch" />
+
+    <ImageView
+        android:id="@+id/FlashBlinkLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/blinklightoff"
+        android:contentDescription="@null"
+        android:layout_below="@+id/FlashBlinkButton"
+        android:layout_alignRight="@+id/FlashBlinkButton"
+        android:layout_alignEnd="@+id/FlashBlinkButton"
+        android:layout_marginTop="39dp" />
+
+</RelativeLayout>

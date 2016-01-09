@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YourBFFlashlight</string>
+    <string name="button">ON/OFF</string>
+    <string name="btnBlink">ON/OFF</string>
+</resources>
